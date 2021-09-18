@@ -24,7 +24,7 @@ class App extends Component {
   };
 
   consultarApi = () => {
-    const baseUrl = "http://3.14.152.199:8080/api/customer/customers";
+    const baseUrl = "http://18.222.164.54:8080/api/customer/customers";
     fetch(baseUrl)
       .then((respuesta) => respuesta.json())
       .then((resultado) => this.setState({ users: resultado }));

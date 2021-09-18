@@ -16,6 +16,8 @@ class Resultado extends Component {
                         lastName={user.lastName}
                         email={user.email}
                         documentId = {user.documentId}
+                        imageCustomer = {user.imageCustomer}
+                        phoneNumber = {user.phoneNumber}
                        // userBasicData={user.userBasicData}
                        // imageUrl={user.imageUrl.value}
                         />
