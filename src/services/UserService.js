@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export class UserService{
-     baseUrl = "http://3.15.240.147:8080/api/customer/customers";
+     baseUrl = "https://web-shopping-cart.azurewebsites.net/api/customer/customers";
      getAll(){
          console.log("dentro del servicio")
          return (
